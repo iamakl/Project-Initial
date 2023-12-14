@@ -8,10 +8,10 @@ This project implements a basic in-memory file system in JavaScript (Node.js). I
 
 ## Implementation Details
 
-### Data Structures:
-- The primary data structure used is an **object** to represent the file system.
-- Each directory is represented as an object with keys as file/directory names and values as objects containing type and content information.
-- Each file is represented as an object containing type and content information.
+### File System Structure (Data Structure):
+- The primary data structure is an object (`fs`) representing the file system. It is organized as a hierarchical structure with directories and files.
+- Each directory is represented by an object with a `type` property set to 'dir' and a `content` property containing nested files and directories or, object with keys as file/directory names and values as objects containing type and content information.
+- Files are represented similarly but with a `type` property set to 'file' and a `content` property containing the file's data.
 
 ### File System Operations:
 - `mkdir`: Creates a new directory.
