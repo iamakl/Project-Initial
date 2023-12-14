@@ -100,6 +100,6 @@ To exit the script, type `exit` and press Enter. This will exit the in-memory fi
     - **Explanation:** Path manipulation operations use string concatenation and regular expressions. The time complexity depends on the length of the paths being manipulated.
 
 3. **Command Processing:**
-    - **Time Complexity:** O(1) to O(N), depending on the specific operation.
+    - **Time Complexity:** O(1) to O(N), depending on the specific operation and it can be O(log N) if we implement Binary Search.
     - **Explanation:** Most operations involve dictionary lookups or manipulations, which are O(1). However, operations like listing directory contents may take O(N) time, where N is the size of the specific directory or file involved.
 
