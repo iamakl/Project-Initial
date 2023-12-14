@@ -40,27 +40,48 @@ This project implements a basic in-memory file system in JavaScript (Node.js). I
 ### Requirements:
 
 1. **Node.js:**
-   Ensure that Node.js v17.4.0 is installed on your local machine. You can download it from the official website: [Node.js Downloads](https://nodejs.org/)
+Ensure that Node.js v17.4.0(or newer) is installed on your local machine. You can download it from the official website: [Node.js Downloads](https://nodejs.org/)
+2. **Verify Installation:**
+Open a terminal or command prompt and run the following commands to verify that Node.js and npm (Node Package Manager) are installed:
+
+```bash
+node -v
+npm -v
+```
+
+You should see version numbers for Node.js and npm.
 
 ### Running the JavaScript Code:
 
-1. **Save the Code:**
-   Save the provided JavaScript code into a file, for example, `Filesystem.js`.
+1. To open and use the code from the GitHub repository, you can follow these steps:
+- **Clone the Repository:**
+Open your terminal or command prompt and run the following command to clone the repository to your local machine:
 
-2. **Open Terminal:**
-   Open a terminal or command prompt in the directory where you saved the JavaScript file.
+```bash
+git clone https://github.com/iamakl/Project-Initial.git
+```
 
-3. **Run the Script:**
-   Run the script using the following command:
+- **Navigate to the Project Directory:**
+Change your current working directory to the cloned project folder:
+    
+    ```bash
+    cd Project-Initial
+    ```
+    
+1. **Open Terminal:**
+Open a terminal or command prompt in the directory where you cloned the Github repository.
+2. **Run the Script:**
+Execute the main JavaScript file (assuming `FileSystem.js` is the main file) using Node.js:
 
-   ```bash
-   Fileystem.js
+```bash
+node Filesystem.js
+```
+
 - This command starts the in-memory file system shell, allowing you to interact with the file system.
-4. **Interact with the File System:**
+1. **Interact with the File System:**
 Once the shell is running, you can use the provided commands to interact with the file system.
-5. **Exit the Script:**
+2. **Exit the Script:**
 To exit the script, type `exit` and press Enter. This will exit the in-memory file system shell.
-
 
 
 
