@@ -2,7 +2,7 @@
 
 Welcome to the [Project Initial](https://github.com/iamakl/Project-Initial)</br>
 
-[FORMAL DOCUMENTATION LINK](https://docs.google.com/document/d/1qQakLy1buZv7iKKhjjXUlgS6H-DM-svaZ7ndp8tMrF4/edit?usp=sharing)
+[FORMAL DOCUMENTATION LINK](https://drive.google.com/file/d/1E1UAWta2Y_nVQE4x8pTzMVG3b0bdIg_D/view?usp=sharing)
 
 [Working Demo Link](https://youtu.be/l63lYjm9Yr0)
 
